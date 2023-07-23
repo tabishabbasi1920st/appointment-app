@@ -19,9 +19,9 @@ const AppointmentItem = props => {
     : 'https://assets.ccbp.in/frontend/react-js/appointments-app/star-img.png'
 
   return (
-    <div className="appointment-item-container">
+    <li className="appointment-item-container">
       <div className="title-and-favorite-container">
-        {titleInput}
+        <p>{titleInput}</p>
         <button
           type="button"
           onClick={starImageClicked}
@@ -35,7 +35,7 @@ const AppointmentItem = props => {
         Date: {formattedUserProvidedDate.toString()}{' '}
         {dayNameFromDate.toString()}
       </p>
-    </div>
+    </li>
   )
 }
 

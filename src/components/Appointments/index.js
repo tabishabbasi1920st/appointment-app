@@ -93,7 +93,7 @@ class Appointments extends Component {
                 placeholder="Title"
               />
               <br />
-              <label htmlFor="titleInput" className="label">
+              <label htmlFor="dateInput" className="label">
                 Date
               </label>
               <br />
